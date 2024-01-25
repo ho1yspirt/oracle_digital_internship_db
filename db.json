@@ -1,79 +1,38 @@
 {
     "auth": {
-        "login": {
-            "api_token": "-",
-            "refresh_token": "-"
-        },
-        "signup": {
-            "api_token": "-"
-        },
-        "signupConfirm": {
-            "api_token": "-",
-            "refresh_token": "-"
-        },
-        "refresh": {
-            "api_token": "-",
-            "refresh_token": "-"
-        }
+        "api_token": "-",
+        "refresh_token": "-"
     },
-    "discover": {
-        "newToday": {
-            "data": [
-                {
-                    "id": "1",
-                    "username": "Amir Asakeev",
-                    "nickname": "ho1yspirt",
-                    "imageUrl": "https://images.unsplash.com/photo-1649938873286-6c3e5534a6e6",
-                    "avatarImageUrl": "https://avatars.githubusercontent.com/u/58621227"
-                },
-                {
-                    "id": "2",
-                    "username": "Amir Asakeev",
-                    "nickname": "ho1yspirt",
-                    "imageUrl": "https://images.unsplash.com/photo-1616333299690-48837a82e5c1",
-                    "avatarImageUrl": "https://avatars.githubusercontent.com/u/58621227"
-                },
-                {
-                    "id": "3",
-                    "username": "Amir Asakeev",
-                    "nickname": "ho1yspirt",
-                    "imageUrl": "https://images.unsplash.com/photo-1595686528907-725bf013cbfd",
-                    "avatarImageUrl": "https://avatars.githubusercontent.com/u/58621227"
-                }
-            ]
-        }
-    },
-    "chats": {
-        "all": {
-            "data": [
-                {
-                    "id": "1",
-                    "username": "James",
-                    "avatarImageUrl": "https://avatars.githubusercontent.com/u/5502029?v=4",
-                    "last_message": "Thank you! That was very helpful!"
-                },
-                {
-                    "id": "2",
-                    "username": "Will Kenny",
-                    "avatarImageUrl": "https://avatars.githubusercontent.com/u/5502029?v=4",
-                    "last_message": "I know... I’m trying to get the funds."
-                },
-                {
-                    "id": "3",
-                    "username": "Beth Williams",
-                    "avatarImageUrl": "https://avatars.githubusercontent.com/u/5502029?v=4",
-                    "last_message": "I’m looking for tips around capturing the milky way. I have a 6D with a 24-100mm..."
-                },
-                {
-                    "id": "4",
-                    "username": "Rev Shawn",
-                    "avatarImageUrl": "https://avatars.githubusercontent.com/u/5502029?v=4",
-                    "last_message": "Wanted to ask if you’re available for a portrait shoot next week."
-                }
-            ]
+    "discover": [
+        {
+            "id": "1",
+            "username": "Amir Asakeev",
+            "nickname": "ho1yspirt",
+            "imageUrl": "https://images.unsplash.com/photo-1649938873286-6c3e5534a6e6",
+            "avatarImageUrl": "https://avatars.githubusercontent.com/u/58621227"
         },
-        "1": {
-            "data": [
+        {
+            "id": "2",
+            "username": "Amir Asakeev",
+            "nickname": "ho1yspirt",
+            "imageUrl": "https://images.unsplash.com/photo-1616333299690-48837a82e5c1",
+            "avatarImageUrl": "https://avatars.githubusercontent.com/u/58621227"
+        },
+        {
+            "id": "3",
+            "username": "Amir Asakeev",
+            "nickname": "ho1yspirt",
+            "imageUrl": "https://images.unsplash.com/photo-1595686528907-725bf013cbfd",
+            "avatarImageUrl": "https://avatars.githubusercontent.com/u/58621227"
+        }
+    ],
+    "chats": [
+        {
+            "id": "1",
+            "username": "James",
+            "avatarImageUrl": "https://avatars.githubusercontent.com/u/5502029?v=4",
+            "last_message": "Thank you! That was very helpful!",
+            "chat": [
                 {
                     "id": "1",
                     "users": false,
@@ -94,8 +53,12 @@
                 }
             ]
         },
-        "2": {
-            "data": [
+        {
+            "id": "2",
+            "username": "Will Kenny",
+            "avatarImageUrl": "https://avatars.githubusercontent.com/u/5502029?v=4",
+            "last_message": "I know... I’m trying to get the funds.",
+            "chat": [
                 {
                     "id": "1",
                     "users": false,
@@ -116,8 +79,12 @@
                 }
             ]
         },
-        "3": {
-            "data": [
+        {
+            "id": "3",
+            "username": "Beth Williams",
+            "avatarImageUrl": "https://avatars.githubusercontent.com/u/5502029?v=4",
+            "last_message": "I’m looking for tips around capturing the milky way. I have a 6D with a 24-100mm...",
+            "chat": [
                 {
                     "id": "1",
                     "users": false,
@@ -138,73 +105,71 @@
                 }
             ]
         }
-    },
+    ],
     "profile": {
         "username": "Amir Asakeev",
         "location": "Kyrgzstan"
     },
-    "all": {
-        "data": [
-            {
-                "id": "1",
-                "imageUrl": "https://images.unsplash.com/photo-1649938873286-6c3e5534a6e6"
-            },
-            {
-                "id": "2",
-                "imageUrl": "https://images.unsplash.com/photo-1616333299690-48837a82e5c1"
-            },
-            {
-                "id": "3",
-                "imageUrl": "https://images.unsplash.com/photo-1595686528907-725bf013cbfd"
-            },
-            {
-                "id": "4",
-                "imageUrl": "https://images.unsplash.com/photo-1614930337255-31dcf74575dc"
-            },
-            {
-                "id": "5",
-                "imageUrl": "https://images.unsplash.com/photo-1595686367407-ee3b933da4e2"
-            },
-            {
-                "id": "6",
-                "imageUrl": "https://images.unsplash.com/photo-1595496358672-2d175fcdd01a"
-            },
-            {
-                "id": "7",
-                "imageUrl": "https://lh3.googleusercontent.com/pw/ABLVV84aF1KKS8mpnjZs4U4tDkOfDdGwP64GN4TgKRI8FGW6z1O9P4SukTCsle8GFgaISW80pk9CS2QI1C1btof465fQhcqQFJCmauREnxaz7jjxosruZo1fAi2BFPv2C0dWiSAvVkk1ptXPWb4wuRC4pvEh"
-            },
-            {
-                "id": "8",
-                "imageUrl": "https://lh3.googleusercontent.com/pw/ABLVV86vMnJ1YV79Mee1Pup989LCJzB9ib7qrG9-8vOGxpA6LVj8qu5VyTOqeCCEBoiBZX908m0rkcO3-xdDfRLeLeVrUtW7MiJ9MfnclBbrVMOi-LmICPM1qsVSBO4Jk2gfYIrmk47BD1wjN8xvQHgvkCVE"
-            },
-            {
-                "id": "9",
-                "imageUrl": "https://lh3.googleusercontent.com/pw/ABLVV86CC6UP3EmmlY0VTHQkijbRdEHDPYbVTdoU_sHMFfcnokOxJni0422wLf6rLvsbx2MGhf5_C6YV5_rTgPDVs6NVRHrfyEUYaIcJ4HdvAGRCMNp3vyyuBpjWcui8QjUwcj72bv6EWIPcRpRSpZiR7iOV"
-            },
-            {
-                "id": "10",
-                "imageUrl": "https://lh3.google.com/pw/ABLVV84gHPt4iQ62ix9SKPdsUvwy1VgwDv4lxYlTmXtwO8h_g5J-gtNWFbz6XQI2XIEK_CUACzyiOcNEl9bFZNY_WIDVzrV0OA"
-            },
-            {
-                "id": "11",
-                "imageUrl": "https://lh3.google.com/pw/ABLVV86kRJG9UNz5ZONiNY-S6CbpFXGF_gSZehiUt8bFkY2DY-pFRLgA_OLRKjUF_6LiN1dOccRJutnMAGNYuYv9I9m7J2iB5Q"
-            },
-            {
-                "id": "12",
-                "imageUrl": "https://lh3.google.com/pw/ABLVV86UUD9BqSjCjGPZXysJI_X4HYsPLbOdfMxZo8_fWPdAR--6hDih7Z05g69SQGHYFuU-ffQLDAeimv_g7r8X7Ry9Hq6HAQ"
-            },
-            {
-                "id": "13",
-                "imageUrl": "https://lh3.googleusercontent.com/pw/ABLVV84ldsqsQN72cssKmjTJf6pt29Dp11bM5WYR0XWZL0wNmfkfWx62yN0pld64kRWdhlMEgt26mskz9XeYuX363dbVefmvIkeP0dLjkZHO8DwJ85C2Qov6VaRmL6oMvaMw0NGfk8Prf_MPbSx_6Igbh5ae"
-            },
-            {
-                "id": "14",
-                "imageUrl": "https://lh3.googleusercontent.com/pw/ABLVV86Nk8vo6yBlJOtCCx4CbFF84XZKjXW3777O7THKj1XjavHB2w12eK8YkgUmeyNvqDcos2vPXHUX7kXCmcYvXOeBx0sc-9QfWQKNgaoJ9iylPFuZZ-qd2EbsGkuMpwtBAeugENMciU5uGfNLZ-h0Kjw7"
-            },
-            {
-                "id": "15",
-                "imageUrl": "https://lh3.googleusercontent.com/pw/ABLVV85VTMiGRMqylKps2gCrITtHTPubh7mMNfZIsSi56r3YE5o_tVEdNwpTxan3vXmmfXfHsGTFXUQtdLJUCabg8ElC6em3_ss0WK61RRM0UaRdnWxOqBzICFRxAHd5n8vDkpcNPWMxNAvlfKpNU1bQ1MNq"
-            }
-        ]
-    }
+    "all": [
+        {
+            "id": "1",
+            "imageUrl": "https://images.unsplash.com/photo-1649938873286-6c3e5534a6e6"
+        },
+        {
+            "id": "2",
+            "imageUrl": "https://images.unsplash.com/photo-1616333299690-48837a82e5c1"
+        },
+        {
+            "id": "3",
+            "imageUrl": "https://images.unsplash.com/photo-1595686528907-725bf013cbfd"
+        },
+        {
+            "id": "4",
+            "imageUrl": "https://images.unsplash.com/photo-1614930337255-31dcf74575dc"
+        },
+        {
+            "id": "5",
+            "imageUrl": "https://images.unsplash.com/photo-1595686367407-ee3b933da4e2"
+        },
+        {
+            "id": "6",
+            "imageUrl": "https://images.unsplash.com/photo-1595496358672-2d175fcdd01a"
+        },
+        {
+            "id": "7",
+            "imageUrl": "https://lh3.googleusercontent.com/pw/ABLVV84aF1KKS8mpnjZs4U4tDkOfDdGwP64GN4TgKRI8FGW6z1O9P4SukTCsle8GFgaISW80pk9CS2QI1C1btof465fQhcqQFJCmauREnxaz7jjxosruZo1fAi2BFPv2C0dWiSAvVkk1ptXPWb4wuRC4pvEh"
+        },
+        {
+            "id": "8",
+            "imageUrl": "https://lh3.googleusercontent.com/pw/ABLVV86vMnJ1YV79Mee1Pup989LCJzB9ib7qrG9-8vOGxpA6LVj8qu5VyTOqeCCEBoiBZX908m0rkcO3-xdDfRLeLeVrUtW7MiJ9MfnclBbrVMOi-LmICPM1qsVSBO4Jk2gfYIrmk47BD1wjN8xvQHgvkCVE"
+        },
+        {
+            "id": "9",
+            "imageUrl": "https://lh3.googleusercontent.com/pw/ABLVV86CC6UP3EmmlY0VTHQkijbRdEHDPYbVTdoU_sHMFfcnokOxJni0422wLf6rLvsbx2MGhf5_C6YV5_rTgPDVs6NVRHrfyEUYaIcJ4HdvAGRCMNp3vyyuBpjWcui8QjUwcj72bv6EWIPcRpRSpZiR7iOV"
+        },
+        {
+            "id": "10",
+            "imageUrl": "https://lh3.google.com/pw/ABLVV84gHPt4iQ62ix9SKPdsUvwy1VgwDv4lxYlTmXtwO8h_g5J-gtNWFbz6XQI2XIEK_CUACzyiOcNEl9bFZNY_WIDVzrV0OA"
+        },
+        {
+            "id": "11",
+            "imageUrl": "https://lh3.google.com/pw/ABLVV86kRJG9UNz5ZONiNY-S6CbpFXGF_gSZehiUt8bFkY2DY-pFRLgA_OLRKjUF_6LiN1dOccRJutnMAGNYuYv9I9m7J2iB5Q"
+        },
+        {
+            "id": "12",
+            "imageUrl": "https://lh3.google.com/pw/ABLVV86UUD9BqSjCjGPZXysJI_X4HYsPLbOdfMxZo8_fWPdAR--6hDih7Z05g69SQGHYFuU-ffQLDAeimv_g7r8X7Ry9Hq6HAQ"
+        },
+        {
+            "id": "13",
+            "imageUrl": "https://lh3.googleusercontent.com/pw/ABLVV84ldsqsQN72cssKmjTJf6pt29Dp11bM5WYR0XWZL0wNmfkfWx62yN0pld64kRWdhlMEgt26mskz9XeYuX363dbVefmvIkeP0dLjkZHO8DwJ85C2Qov6VaRmL6oMvaMw0NGfk8Prf_MPbSx_6Igbh5ae"
+        },
+        {
+            "id": "14",
+            "imageUrl": "https://lh3.googleusercontent.com/pw/ABLVV86Nk8vo6yBlJOtCCx4CbFF84XZKjXW3777O7THKj1XjavHB2w12eK8YkgUmeyNvqDcos2vPXHUX7kXCmcYvXOeBx0sc-9QfWQKNgaoJ9iylPFuZZ-qd2EbsGkuMpwtBAeugENMciU5uGfNLZ-h0Kjw7"
+        },
+        {
+            "id": "15",
+            "imageUrl": "https://lh3.googleusercontent.com/pw/ABLVV85VTMiGRMqylKps2gCrITtHTPubh7mMNfZIsSi56r3YE5o_tVEdNwpTxan3vXmmfXfHsGTFXUQtdLJUCabg8ElC6em3_ss0WK61RRM0UaRdnWxOqBzICFRxAHd5n8vDkpcNPWMxNAvlfKpNU1bQ1MNq"
+        }
+    ]
 }
