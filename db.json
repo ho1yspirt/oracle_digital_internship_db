@@ -1,11 +1,4 @@
 {
-    "initial": {
-        "id": "1",
-        "username": "Amir Asakeev",
-        "nickname": "ho1yspirt",
-        "imageUrl": "https://images.unsplash.com/photo-1649938873286-6c3e5534a6e6",
-        "avatarImageUrl": "https://avatars.githubusercontent.com/u/58621227"
-    },
     "auth": {
         "login": {
             "api_token": "-",
